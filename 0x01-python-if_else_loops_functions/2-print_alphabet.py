@@ -1,5 +1,3 @@
 #!/usr/bin/python3
-i = 0
-while i < 26:    
-    print('{:c}'. format(i + 97), end='')
-    i = i + 1
+for character in range(97, 123):
+    print(chr(character), end="")
