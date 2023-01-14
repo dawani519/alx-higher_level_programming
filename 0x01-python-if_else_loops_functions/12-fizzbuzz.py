@@ -2,11 +2,11 @@
 def fizzbuzz():
     for number in range(0, 101):
         if number % 3 == 0:
-            print("{Fizz}".format(number), end="")
+            print("Fizz ", end="")
             if number % 5 == 0:
-                print("{Buzz}".format(number), end="")
+                print("Buzz ", end="")
             elif number % 3 == 0 and number % 5 == 0:
-                print("{FizzBuzz}".format(number), end="")
+                print("FizzBuzz ", end="")
             else:
                 print("{}".format(number), end=" ")
 
