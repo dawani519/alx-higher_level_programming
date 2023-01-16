@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-arg = list([])
-i = 0
-for n in range(len(arg)):
-    while i < len(arg):
-        print("{n: } {}".format(n, arg[i]))
-        i = i + 1
+if __name__ == "__main__":
+    import sys
+    arg = list([])
+    i = 0
+    for i in range(len(arg)):
+        print("{}: {}".format(i + 1, arg[i + 1]))
 
