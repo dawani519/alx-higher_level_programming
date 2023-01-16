@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def remove_char_at(str, n):
-    for letter in range(97, 123):
+    for n in chr(str):
         n = []
-        if chr(letter) != n:
-            print("{n[]}".format(chr(letter)), end="")
+        if chr(str) != n:
+            print("{[]}".format(chr(str)), end="")
